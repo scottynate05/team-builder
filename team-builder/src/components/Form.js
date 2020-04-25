@@ -13,7 +13,7 @@ const Form = ({ addMember }) => {
     }
     return (
         <form onSubmit={submitForm}>
-            <label htmlfor="name">Name</label>
+            <label htmlfor="name">Name: </label>
             <input
                 id="name"
                 type="text"
@@ -21,7 +21,7 @@ const Form = ({ addMember }) => {
                 name="name"
                 onChange={handleChange}
             />
-            <label htmlfor="email">Email</label>
+            <label htmlfor="email">Email: </label>
             <input
                 id="email"
                 type="text"
@@ -29,7 +29,7 @@ const Form = ({ addMember }) => {
                 name="email"
                 onChange={handleChange}
             />
-            <label htmlfor="role">Role</label>
+            <label htmlfor="role">Role: </label>
             <input
                 id="role"
                 type="text"
